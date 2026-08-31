@@ -37,7 +37,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://react-deployment-nu-teal.vercel.app" # 한글 주석: 프론트엔드 배포 주소를 추가하여 CORS 차단을 방지합니다.
+        "https://react-deploument.vercel.app" # 한글 주석: 프론트엔드 배포 주소를 추가하여 CORS 차단을 방지합니다.
     ],
     allow_credentials=True,
     allow_methods=["*"],
